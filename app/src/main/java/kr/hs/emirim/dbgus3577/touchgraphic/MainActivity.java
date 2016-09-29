@@ -1,3 +1,6 @@
+
+package kr.hs.emirim.dbgus3577.touchgraphic;
+
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -12,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(new DrawShape(getApplicationContext()));
+    }
+    public void drawShape(View v) {
+
     }
     class DrawShape extends View{
         DrawShape(Context context){
